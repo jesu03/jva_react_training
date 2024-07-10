@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px 50px;
+    background-color: cornflowerblue;
+    color: white;
+}
+nav h1{
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
